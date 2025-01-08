@@ -13,7 +13,6 @@ function compStyles() {
     return gulp.src('./src/styles/*scss')
         .pipe(sass({
             outputStyle: 'compressed',
-            includePaths: ['./node_modules/bootstrap/scss']
         }))
         .pipe(gulp.dest('./dist/css/'));
 }

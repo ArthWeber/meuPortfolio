@@ -1,0 +1,11 @@
+@use 'vars';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 90vh;
+
+    &__content {
+        max-width: 640px;
+        height: 78.5vh;
+    }
+}
